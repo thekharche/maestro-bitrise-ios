@@ -1,0 +1,5 @@
+appId: example.maestro-bitrise-ios
+---
+- launchApp # launches the app
+- assertVisible:
+    text: ".*Hello.*"
